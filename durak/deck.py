@@ -21,6 +21,6 @@ class Deck:
         for i in range(0,number):
             if len(self.cards) > 0:
                 drawnCard = self.cards.pop(0)
-                print "\t\tDrawn from deck", drawnCard
+                # print "\t\tDrawn from deck", drawnCard
                 ret.append(drawnCard)
         return ret
